@@ -58,7 +58,9 @@ Enter a number N and press Generate Table to display the multiplication table fo
 Example
 For N = 3, the first 3 primes are 2, 3, and 5. The multiplication table will look like this:
 
-2	3	5
-2	4	6	10
-3	6	9	15
-5	10	15	25
+|   |   |   |   |
+|---|---|---|---|
+| 2 | 3 | 5 |   |
+| 2 | 4 | 6 | 10|
+| 3 | 6 | 9 | 15|
+| 5 | 10| 15| 25|
