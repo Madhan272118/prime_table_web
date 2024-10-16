@@ -37,6 +37,7 @@ Follow these steps to set up the project on your local environment using **XAMPP
 2. Set the base URL to the correct URL for your project:
 ```php
 public $baseURL = 'http://localhost/PrimeTableWeb/';
+```
 
 ### 4. Enable the intl Extension (If Required)
 
