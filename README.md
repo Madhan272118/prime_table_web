@@ -55,12 +55,13 @@ Enter a number N and press Generate Table to display the multiplication table fo
 2. The first N prime numbers are generated using a custom algorithm in PHP.
 3. The application generates an N+1 x N+1 grid of numbers where the first row and column are the prime numbers, and each cell contains the product of the respective row and column prime numbers.
 4. The form and result are displayed on the same page, allowing the user to try different values without leaving or refreshing the page.
-Example
+
+## Example
+
 For N = 3, the first 3 primes are 2, 3, and 5. The multiplication table will look like this:
 
-|   |   |   |   |
+|   | 2 | 3 | 5 |
 |---|---|---|---|
-| 2 | 3 | 5 |   |
-| 2 | 4 | 6 | 10|
-| 3 | 6 | 9 | 15|
-| 5 | 10| 15| 25|
+| 2 | 4 | 6 | 10 |
+| 3 | 6 | 9 | 15 |
+| 5 | 10 | 15 | 25 |
