@@ -28,8 +28,9 @@ class PrimeTableController extends BaseController
         $n = (int)$this->request->getPost('number');
         // Validate that the number is at least 1
         if ($n >= 1) {
+            // Generate the first N prime numbers
             $primes = $this->generatePrimes($n);
-            return view('prime_table', ['primes' => $primes]);
+            return view('prime_table', ['primes' => $primes, 'userInput' => $n]);
         }
         return redirect()->back()->with('error', 'Please enter a valid number greater than 0.');
     }
