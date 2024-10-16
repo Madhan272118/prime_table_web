@@ -1,0 +1,5 @@
+.env
+/vendor/
+/writable/
+.phpunit.result.cache
+composer.lock
